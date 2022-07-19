@@ -8,7 +8,7 @@ public class AlfredQuotes {
     
     public String guestGreeting(String name) {
         // YOUR CODE HERE
-        return String.format("Hey! " + name);
+        return String.format("Hey!, %s lovely to see you " , name);
     }
     
     public String dateAnnouncement() {
