@@ -29,7 +29,7 @@ public class TestOrders {
         System.out.println("Total of order1: $"+order1.getOrderTotal());
 
 
-     
+        //test
 
         order3.addItem(item1);
         order3.addItem(item4);
@@ -44,6 +44,7 @@ public class TestOrders {
         order5.addItem(item4);
         
 
+        
         System.out.println(" ");
         order1.display();
         System.out.println(order1.getStatusMessage());
