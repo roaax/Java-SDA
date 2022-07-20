@@ -44,7 +44,6 @@ public class TestOrders {
         order5.addItem(item4);
         
 
-        
         System.out.println(" ");
         order1.display();
         System.out.println(order1.getStatusMessage());
