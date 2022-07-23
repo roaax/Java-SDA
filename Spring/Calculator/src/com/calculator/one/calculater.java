@@ -25,7 +25,7 @@ public class calculater {
 	public void setOperation(char operation) {
 		this.operation = operation;
 	}
-	
+// 	This method contains all operations that we need , i store the restult of operation in result variable
 	public void performOperation() {
 		if (operation == '+') {
 			 result= operandOne+operandtwo;
@@ -38,6 +38,7 @@ public class calculater {
 		}
 		
 	}
+// 	 This method will return the result (that i already stored it in performOperation operation)
 	public double getResults() {
 		return result;
 	}
