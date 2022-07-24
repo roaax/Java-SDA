@@ -1,7 +1,7 @@
 package com.zookeeper.two;
 
 public class Mammal{
-	public int energyLevel;
+	private int energyLevel;
 	
 	//constructor - make energy level default value
 	public Mammal(){
